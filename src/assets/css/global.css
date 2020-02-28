@@ -13,3 +13,6 @@ html,body,#app{
     margin-top: 18px;
     font-size: 13px;
 }
+.el-cascader-panel {
+    height:250px !important;
+  }
