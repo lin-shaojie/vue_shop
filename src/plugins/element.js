@@ -30,7 +30,10 @@ import {
     Tree,
     Select,
     Option,
-    Cascader
+    Cascader,
+    Alert,
+    Tabs,
+    TabPane
 } from 'element-ui'
 
 Vue.use(Button)
@@ -62,5 +65,8 @@ Vue.use(Select)
 Vue.use(Option)
 Vue.use(ZkTable)
 Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 Vue.prototype.$message = Message; //挂载到全局，这样每个组件中this.$message都可以使用了
 Vue.prototype.$confirm = MessageBox.confirm

@@ -289,7 +289,7 @@ export default {
       if (res.meta.status !== 200) {
         return this.$message.error(res.meta.msg)
       } else {
-        this.$message.error(res.meta.msg)
+        this.$message.success(res.meta.msg)
         this.getRolesList()
       }
     }
