@@ -16,3 +16,12 @@ html,body,#app{
 .el-cascader-panel {
     height:250px !important;
   }
+  .el-steps {
+    margin: 20px 0;
+  }
+  .el-step__title {
+    font-size: 14px;
+  }
+  .ql-container {
+    height: 350px !important;
+  }

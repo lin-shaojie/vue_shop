@@ -134,7 +134,6 @@ export default {
         },
         {
           label: '是否有效',
-
           align: 'center',
           headerAlign: 'center',
           type: 'template',
