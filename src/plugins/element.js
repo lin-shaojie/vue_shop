@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import ZkTable from 'vue-table-with-tree-grid'
+import Timeline from './timeline/index.js'
+import TimelineItem from './timeline-item/index.js'
 import {
     Button,
     Form,
@@ -78,5 +80,7 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 Vue.prototype.$message = Message; //挂载到全局，这样每个组件中this.$message都可以使用了
 Vue.prototype.$confirm = MessageBox.confirm
