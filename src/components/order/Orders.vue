@@ -125,7 +125,8 @@ export default {
       // 物流进度的显示与隐藏
       progressBoxVisible: false,
       // 物流信息
-      progressInfo: []
+      progressInfo: [],
+       reverse: false,
     }
   },
   methods: {

@@ -5,7 +5,7 @@
         <img src="../assets/logo.png" alt />
         <i>电商后台管理系统</i>
       </div>
-      <el-button type="info" @click="logout">退出</el-button>
+      <el-button  plain round @click="logout">退出</el-button>
     </el-header>
     <!-- 内容主体区域 -->
     <el-container>
@@ -14,9 +14,10 @@
         <div class="toggle_button" @click="toggleCollapse">|||</div>
         <!-- 侧边栏菜单区域 -->
         <el-menu
-          background-color="#333744"
-          text-color="#fff"
-          active-text-color="#409EFF"
+          background-color="#FFFFFF"
+          text-color="#607d8b"
+          
+          active-text-color="#03a9f3"
           unique-opened
           :collapse="isCollapse"
           :collapse-transition="false"
@@ -106,8 +107,9 @@ export default {
   height: 100%;
 }
 .el-header {
-  background-color: #373d41;
-  color: #fff;
+  background-color: #fff;
+      border-bottom: 1px solid #e8e9ed;
+  color: #343a40;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,7 +128,7 @@ export default {
   }
 }
 .el-aside {
-  background-color: #333744;
+  background-color: #FFFFFF;
   .el-menu {
     border-right: 0;
   }
@@ -140,9 +142,9 @@ export default {
   }
   .toggle_button {
     margin-right: 0;
-    background-color: #4a5064;
+    background-color: #ffffff;
     font-size: 16px;
-    color: #fff;
+    color: #607d8b;
     text-align: center;
     letter-spacing: 0.2em;
     line-height: 24px;

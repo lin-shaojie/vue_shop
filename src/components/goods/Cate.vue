@@ -13,7 +13,7 @@
       <el-button type="primary" @click="showAddCateDialog">添加分类</el-button>
 
       <!-- 商品分类区域 -->
-      <zk-table
+      <tree-table
         :data="cateList"
         :columns="columns"
         :show-index="true"
@@ -49,7 +49,7 @@
             @click="deleteCate(scope.row.cat_id)"
           >删除</el-button>
         </template>
-      </zk-table>
+      </tree-table>
 
       <!-- 分页 -->
       <el-pagination
@@ -118,7 +118,9 @@
 </template>
 
 <script>
+
 export default {
+  
   data() {
     return {
       // 商品分类的数据列表

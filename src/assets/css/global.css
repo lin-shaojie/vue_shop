@@ -25,3 +25,12 @@ html,body,#app{
   .ql-container {
     height: 350px !important;
   }
+  .el-main {
+   background-color: #EFF0F5; 
+  }
+  .el-breadcrumb__inner{
+    color: #343a40;
+  }
+  .el-table {
+    color: #343a40;
+  }

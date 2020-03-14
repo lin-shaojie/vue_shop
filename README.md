@@ -1,19 +1,17 @@
-# vue_shop
+## vue_shop
 
-## Project setup
-```
-npm install
-```
+## 介绍
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+vue_shop是一款电商后台管理系统，主要功能有管理用户账号、商品分类、商品信息、订单、数据统计等业务。 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+电商后台管理系统整体采用前后端分离的开发模式，其中前端项目是基于 **Vue 技术栈的 SPA 项目**。 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 项目主要技术栈
+
++ `Vue`
++  `Vue-router `
++  `Element-UI`
++  `Axios`
++  `Echarts`
+

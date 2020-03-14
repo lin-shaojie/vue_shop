@@ -58,7 +58,6 @@ export default {
     var myChart = echarts.init(document.getElementById('main'))
 
     const { data: res } = await this.$http.get(`reports/type/1`)
-    console.log(res)
     if (res.meta.status !== 200) {
       return this.$message.error('获取报表失败！')
     }

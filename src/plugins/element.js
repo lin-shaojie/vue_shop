@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import ZkTable from 'vue-table-with-tree-grid'
 import Timeline from './timeline/index.js'
 import TimelineItem from './timeline-item/index.js'
 import {
@@ -70,7 +69,6 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
-Vue.use(ZkTable)
 Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)

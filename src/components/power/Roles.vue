@@ -54,7 +54,6 @@
                 </el-row>
               </el-col>
             </el-row>
-            <pre>{{scope.row}}</pre>
           </template>
         </el-table-column>
         <!-- 索引列 -->
@@ -237,7 +236,6 @@ export default {
     // 修改角色按钮
     async editRolesInfo(id) {
       const { data: res } = await this.$http.get(`roles/${id}`)
-      console.log(res)
       if (res.meta.status != 200) {
         this.$message.error('查询用户信息失败！')
       } else {
