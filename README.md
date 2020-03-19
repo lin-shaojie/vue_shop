@@ -9,7 +9,8 @@ vue_shop是一款电商后台管理系统，主要功能有管理用户账号、
 
 ## 项目主要技术栈
 
-+ `Vue`
++ `Vue2.X`
++ `VueCli 4.0`
 +  `Vue-router `
 +  `Element-UI`
 +  `Axios`
